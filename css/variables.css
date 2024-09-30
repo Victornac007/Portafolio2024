@@ -1,0 +1,30 @@
+:root{
+    --ff-tittle: "Dela Gothic One", sans-serif;
+    --ff-text: "Rubik", sans-serif;
+
+    --color-black: #1c1c1c;
+    --color-white: #d9f2dc;
+    --color-gray: #7b7b7b4a;
+    --color-red: #e50914;
+
+    --font-size-tittle: 2.5rem;
+}
+body{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: var(--ff-text);
+}
+h1, h2, h3{
+    font-family: var(--ff-tittle);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
