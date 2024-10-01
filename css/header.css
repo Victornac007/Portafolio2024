@@ -5,11 +5,36 @@
     padding: .5rem 3rem 0 3rem;
     background-color: white;
     border-radius: 1rem;
+    position: fixed;
+    top: 0;
 }
 .logo{
     max-width: 5rem;
 }
 .nav-list{
     display: flex;
+    flex-direction: row;
     gap: 1rem;
+}
+@media (max-width: 768px) {
+    .main-header{
+        flex-direction: column;
+        padding: .5rem 1rem 0 1rem;
+    }
+    .nav-list{
+        justify-content: center;
+        gap: .5rem;
+        margin: .5rem auto;
+        padding-left: 0;
+        padding-bottom: .5rem;
+    }
+    .nav-list a{
+        font-size: 1rem;
+        font-weight: 400;
+        
+    }
+    .logo{
+        margin-bottom: .5rem;
+        max-width: 3rem;
+    }
 }

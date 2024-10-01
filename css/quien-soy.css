@@ -55,6 +55,7 @@
 @media (max-width: 768px) {
     .quien-soy-inner {
         padding: 2rem;
+        padding-top: 5.5rem;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "tittle"
@@ -67,6 +68,7 @@
     }
     .quien-soy-tittle {
         grid-area: tittle;
+        font-size: 2.8rem;
     }
     .quien-soy-tittle-sub {
         grid-area: tittle-sub;
