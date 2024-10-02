@@ -14,16 +14,16 @@
 }
 .quien-soy-foto{
     grid-area: foto;
-    background-color: green;
+    background-color: rgb(177, 201, 228);
     width: fit-content;
     border-radius: 1rem;
-    height: 138%;
-    transform: scale(.9);
-
+    width: 90%;
+    height: 149%;
+    transform: scale(.8);
 }
 .quien-soy-foto img{
     width: 100%;
-    transform: scale(1.8);
+    transform: scale(2.1);
     margin: 0 auto;
 }
 .quien-soy-tittle{
