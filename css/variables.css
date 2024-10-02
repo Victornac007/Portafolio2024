@@ -3,19 +3,28 @@
     --ff-text: "Rubik", sans-serif;
 
     --color-black: #1c1c1c;
-    --color-white: #d9f2dc;
+    --color-white: #ffffff;
     --color-gray: #7b7b7b4a;
     --color-red: #e50914;
 
     --font-size-tittle: 2.5rem;
 }
+*{
+    box-sizing: border-box;
+    min-width: 0;
+}
 body{
     background-color: var(--color-white);
     color: var(--color-black);
     font-family: var(--ff-text);
+    min-height: 100dvh;
 }
 h1, h2, h3{
     font-family: var(--ff-tittle);
+    text-wrap: balance;
+}
+p{
+    text-wrap: pretty;
 }
 a{
     text-decoration: none;
