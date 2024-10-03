@@ -14,7 +14,7 @@
 }
 .quien-soy-foto{
     grid-area: foto;
-    background-color: rgb(177, 201, 228);
+    background-color: rgb(182, 213, 218);
     width: fit-content;
     border-radius: 1rem;
     width: 90%;
@@ -25,6 +25,9 @@
     width: 100%;
     transform: scale(2.1);
     margin: 0 auto;
+    filter: drop-shadow(
+        0 5px 0.5rem var(--color-white)
+    );
 }
 .quien-soy-tittle{
     grid-area: tittle;
@@ -75,6 +78,8 @@
     }
     .quien-soy-foto {
         grid-area: foto;
+        margin-top: 5rem;
+        height: 115%;
     }
     .quien-soy-tittle {
         grid-area: tittle;
