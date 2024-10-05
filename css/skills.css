@@ -21,6 +21,6 @@
     font-size: 1rem;
     align-items: center;
     color: var(--color-primary);
-    background-color: var(--color-contrast);
+    background-color: var(--color-secondary);
     margin: .1rem auto;
 }

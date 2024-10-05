@@ -43,19 +43,19 @@
 }
 .quien-soy-tittle span{
     filter: drop-shadow(
-        0 0 0.5rem var(--color-red)
+        0 0 0.5rem var(--color-secundary)
     );
     animation-duration: 3s;
-    animation: shake 3s linear infinite;
+    animation: rotation 2s infinite linear;
 }
-@keyframes shake {
-    0%{
-        transform: rotatex(45deg);
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
     }
-    50% {
-        transform: rotatex(-45deg);
+    to {
+        transform: rotate(45deg);
     }
-  }
+}
 .quien-soy-tittle-sub{
     color: var(--color-red);
     margin: 0;

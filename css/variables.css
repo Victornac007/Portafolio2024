@@ -7,7 +7,8 @@
     --color-gray: #7b7b7b4a;
     --color-red: #e50914;
     --color-primary: #14213d;
-    --color-contrast: #fca311;
+    --color-secondary: #fca311;
+    --whatsapp-color: #25D366;
 
     --font-size-tittle: 2.5rem;
 }
@@ -39,4 +40,5 @@ ul{
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0;
 }
