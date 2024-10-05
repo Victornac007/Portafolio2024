@@ -1,0 +1,26 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.habilidades{
+    display: flex;
+    padding: 0 .3rem;
+    border: 1px solid var(--color-gray);
+    border-radius: .5rem;
+    background-color: var(--color-white);
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    align-items: center;
+    color: bisque;
+    background-color: brown;
+    margin: .1rem auto;
+}
