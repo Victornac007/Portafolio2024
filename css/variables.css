@@ -24,6 +24,7 @@ body{
 h1, h2, h3{
     font-family: var(--ff-tittle);
     text-wrap: balance;
+    color: var(--color-primary);
 }
 p{
     text-wrap: pretty;
